@@ -155,6 +155,7 @@ public class PlayerController : MonoBehaviour
 
         if(target.tag == Tags.WALL || target.tag == Tags.BOMB || target.tag == Tags.TAIL) {
             Time.timeScale = 0f;
+            // GameObject.Find("PopUp").SetActive(true);
             AudioManager.instance.Play_DeathSound();
         }
     }
