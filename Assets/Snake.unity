@@ -1617,6 +1617,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 26836930656601759, guid: 0c5573b7d65156f49babbff5e4acc152, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 55166f6aa25a6b846a0d96979dbd922c, type: 2}
     - target: {fileID: 2652166634909774966, guid: 0c5573b7d65156f49babbff5e4acc152, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1664,10 +1668,14 @@ PrefabInstance:
     - target: {fileID: 3585283353006460428, guid: 0c5573b7d65156f49babbff5e4acc152, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: 574a32f1fd43e0e498988286b3eeb64b, type: 2}
     - target: {fileID: 3971665663679365887, guid: 0c5573b7d65156f49babbff5e4acc152, type: 3}
       propertyPath: m_Name
       value: Snake
       objectReference: {fileID: 0}
+    - target: {fileID: 8682927688903345893, guid: 0c5573b7d65156f49babbff5e4acc152, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 55166f6aa25a6b846a0d96979dbd922c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c5573b7d65156f49babbff5e4acc152, type: 3}
